@@ -24,7 +24,7 @@ void EnQueue(int m[]){
 		int val=0;
 		cout<<"Enter value that you want to add"<<endl;
 		cin>>val;
-		for(int i= N; i>=0;i--)
+		for(int i= N; i==0;i--)
 		  m[i]= m[i-1];
 		m[0]=val;
 		N++; 

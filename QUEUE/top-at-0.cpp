@@ -13,7 +13,7 @@ public:
     };
 
     bool isFull(){
-        if(front == 0 && back == 9){
+        if(front == 0 && back == 5){
             return true;
         }else{
             return false;
@@ -46,12 +46,12 @@ public:
     }
 
     void deQueue(){
-        int value;
+        // int value;
         if (isEmpty())
         {
             cout<<"Queue is empty";
         }else{
-            value = arr[front];
+            arr[front] = 0;
             front++;
         }
     }

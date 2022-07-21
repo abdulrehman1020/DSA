@@ -48,7 +48,7 @@ public:
         return value;
     }
 
-    void top (){
+    void topValue (){
         if (isEmpty())
         {
             cout <<"Stack is empty"<<endl;
